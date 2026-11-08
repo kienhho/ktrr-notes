@@ -1,4 +1,5 @@
 # KTRR (as of 2024)
+Originally posted: https://gist.github.com/kienhho/9c3e55c44b07836478f120a6bf4b118a
 ## Background
 1. Apple Memory and Cache Controller (AMCC) is separate from the CPU and controls cache and memory. All memory or cache read and write is controlled by the AMCC. Important values are stored in MMIO registers, which is a part of DRAM.
 2. Memory Management Unit (MMU) is a CPU part, deal with translating  virtual address (VA) to physical address (PA) and also manages memory permission. Since the data are stored in CPU register, get lost when core sleeps
